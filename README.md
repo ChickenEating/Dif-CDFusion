@@ -14,15 +14,21 @@ Infrared and visible image fusion aims to enhance scene representation by integr
 Here are some qualitative results from our experiments:
 
 ### LLVIP Dataset
+Visual comparisons of other state-of-the-art image fusion methods on image \#010434 from the LLVIP dataset:
 ![LLVIP-1](./figs/LLVIP-1.png)
+Visual comparisons of other state-of-the-art image fusion methods on image \#130359 from the LLVIP dataset:
 ![LLVIP-2](./figs/LLVIP-2.png)
 
 ### MSRS Dataset
+Visual comparisons of other state-of-the-art image fusion methods on image \#00633D from the MSRS dataset:
 ![MSRS-1](./figs/MSRS-1.png)
+Visual comparisons of other state-of-the-art image fusion methods on image \#01356D from the MSRS dataset:
 ![MSRS-2](./figs/MSRS-2.png)
 
 ### VEDAI Dataset
+Visual comparisons of other state-of-the-art image fusion methods on image \#00000027 from the VEDAI dataset:
 ![VEDAI-1](./figs/VEDAI-1.png)
+Visual comparisons of other state-of-the-art image fusion methods on image \#00000396 from the VEDAI dataset:
 ![VEDAI-2](./figs/VEDAI-2.png)
 
 ## Usage
@@ -37,21 +43,21 @@ To train or evaluate the model, follow these steps:
    pip install -r requirements.txt
 
 3. Download the datasets and pretrained weights.
-- ​**TNO**: [Download](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029)
-- ​**INO**: [Download](https://www.ino.ca/en/technologies/video-analytics-dataset/videos/)
-- ​**RoadScene**: [Download](https://github.com/hanna-xu/RoadScene)
-- ​**MSRS**: [Download](https://github.com/Linfeng-Tang/MSRS)
-- ​**LLVIP**: [Download](https://bupt-ai-cz.github.io/LLVIP/)
-- ​**M3FD**: [Download](https://github.com/JinyuanLiu-CV/TarDAL)
 - ​**VEDAI**: [Download](https://downloads.greyc.fr/vedai/)
+- ​**LLVIP**: [Download](https://bupt-ai-cz.github.io/LLVIP/)
+- **MSRS**: [Download](https://github.com/Linfeng-Tang/MSRS)
+- **M3FD**: [Download](https://github.com/JinyuanLiu-CV/TarDAL)
+- ​**TNO**: [Download](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029)
+- **RoadScene**: [Download](https://github.com/hanna-xu/RoadScene)
+- ​**INO**: [Download](https://www.ino.ca/en/technologies/video-analytics-dataset/videos/)
 
-Pretrained weights for our model can be downloaded from the following Baidu Netdisk.
+Pretrained weights for our model can be downloaded from the following Baidu netdisk link.
 链接: https://pan.baidu.com/s/1tEBDEbdg5PMKovgPf6j7YQ?pwd=1v2n 提取码: 1v2n
 
 4. Run the training or evaluation script:
    ```bash
-   python train.py  # For training
-   python eval.py   # For evaluation
+   python train.py  # For training and evaluation
+   python test.py   # For testing
 
 ## Citation
 If you find this work useful, please cite our paper:
