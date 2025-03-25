@@ -1,9 +1,10 @@
 # Dif-CDFusion: Bridging Spectral Fidelity and Structural Detail in Infrared-Visible Image Fusion
 
-This repository contains the official implementation of the paper ​**Bridging Spectral Fidelity and Structural Detail: A Diffusion-Based Common-Differential Fusion Network for Infrared-Visible Images**, which has been submitted to ​**IEEE Transactions on Geoscience and Remote Sensing (TGRS)**.
+This repository provides the official PyTorch implementation of the paper ​**Bridging Spectral Fidelity and Structural Detail: A Diffusion-Based Common-Differential Fusion Network for Infrared-Visible Images**, which has been submitted to **​IEEE Transactions on Geoscience and Remote Sensing (TGRS)**. In this work, we introduces ​Dif-CDFusion, a novel framework designed to address the critical challenge of reconciling spectral fidelity and structural consistency in infrared-visible image fusion. By leveraging diffusion-based feature extraction and a common-differential alternating fusion strategy, our approach achieves state-of-the-art performance in preserving both color integrity and structural details. This repository includes the complete source code, pretrained models, and evaluation scripts to facilitate reproducibility and further research in the field of multimodal image fusion. We hope this implementation will serve as a valuable resource for researchers and practitioners working on advanced image fusion techniques.
 
 ## Method Framework
 Below is the framework of our proposed ​**Dif-CDFusion**:
+
 ![Dif-CDFusion Framework](./figs/framework.png)
 
 ## Abstract
@@ -36,8 +37,6 @@ To train or evaluate the model, follow these steps:
    pip install -r requirements.txt
 
 3. Download the datasets and pretrained weights.
-## Datasets
-The following datasets are used in our experiments:
 - ​**TNO**: [Download](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029)
 - ​**INO**: [Download](https://www.ino.ca/en/technologies/video-analytics-dataset/videos/)
 - ​**RoadScene**: [Download](https://github.com/hanna-xu/RoadScene)
@@ -46,7 +45,6 @@ The following datasets are used in our experiments:
 - ​**M3FD**: [Download](https://github.com/JinyuanLiu-CV/TarDAL)
 - ​**VEDAI**: [Download](https://downloads.greyc.fr/vedai/)
 
-## Pretrained Weights
 Pretrained weights for our model can be downloaded from the following Baidu Netdisk.
 链接: https://pan.baidu.com/s/1tEBDEbdg5PMKovgPf6j7YQ?pwd=1v2n 提取码: 1v2n
 
@@ -60,7 +58,7 @@ If you find this work useful, please cite our paper:
    ```bash
 @article{dif_cdfusion,
   title={Bridging Spectral Fidelity and Structural Detail: A Diffusion-Based Common-Differential Fusion Network for Infrared-Visible Images},
-  author={Your Name, Co-authors},
+  author={Guanyu Liu, Ruiheng Zhang, Lixin Xu, Qi Zhang, and Daming Zhou},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   year={2025},
   note={Submitted}
