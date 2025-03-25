@@ -43,23 +43,24 @@ To train or test the model, follow these steps:
    - ​**INO**: [Download](https://www.ino.ca/en/technologies/video-analytics-dataset/videos/)
 
    The pretrained weights for our model can be downloaded from the following Baidu netdisk link.
+
    链接: https://pan.baidu.com/s/1tEBDEbdg5PMKovgPf6j7YQ?pwd=1v2n 提取码: 1v2n
 
-2. Clone this repository:
+3. Clone this repository:
    ```bash
    git clone https://github.com/your_username/Dif-CDFusion.git
    cd Dif-CDFusion
 
-3. Create a new conda environment with Python 3.8.20:
+4. Create a new conda environment with Python 3.8.20:
    ```bash
    conda create -n DifCDFusion python=3.8.20 --y
    conda activate DifCDFusion
 
-4. Install the required dependencies:
+5. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
 
-5. Run the training or evaluation script:
+6. Run the training or evaluation script:
    ```bash
    python train.py  # For training and evaluation
    python test.py   # For testing
