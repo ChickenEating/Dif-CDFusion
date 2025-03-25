@@ -34,13 +34,13 @@ Visual comparisons of other state-of-the-art image fusion methods on image \#000
 ## Usage
 To train or test the model, follow these steps:
 1. Download the datasets and pretrained weights.
-- ​**VEDAI**: [Download](https://downloads.greyc.fr/vedai/)
-- ​**LLVIP**: [Download](https://bupt-ai-cz.github.io/LLVIP/)
-- **MSRS**: [Download](https://github.com/Linfeng-Tang/MSRS)
-- **M3FD**: [Download](https://github.com/JinyuanLiu-CV/TarDAL)
-- ​**TNO**: [Download](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029)
-- **RoadScene**: [Download](https://github.com/hanna-xu/RoadScene)
-- ​**INO**: [Download](https://www.ino.ca/en/technologies/video-analytics-dataset/videos/)
+   - ​**VEDAI**: [Download](https://downloads.greyc.fr/vedai/)
+   - ​**LLVIP**: [Download](https://bupt-ai-cz.github.io/LLVIP/)
+   - **MSRS**: [Download](https://github.com/Linfeng-Tang/MSRS)
+   - **M3FD**: [Download](https://github.com/JinyuanLiu-CV/TarDAL)
+   - ​**TNO**: [Download](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029)
+   - **RoadScene**: [Download](https://github.com/hanna-xu/RoadScene)
+   - ​**INO**: [Download](https://www.ino.ca/en/technologies/video-analytics-dataset/videos/)
 
    The pretrained weights for our model can be downloaded from the following Baidu netdisk link.
    链接: https://pan.baidu.com/s/1tEBDEbdg5PMKovgPf6j7YQ?pwd=1v2n 提取码: 1v2n
