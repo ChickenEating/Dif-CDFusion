@@ -52,7 +52,7 @@ To train or test the model, follow these steps:
 
 3. Clone this repository:
    ```bash
-   git clone [https://github.com/your_username/Dif-CDFusion.git](https://github.com/ChickenEating/Dif-CDFusion.git)
+   git clone https://github.com/ChickenEating/Dif-CDFusion.git
    cd Dif-CDFusion
 
 4. Create a new conda environment with Python 3.8.20:
