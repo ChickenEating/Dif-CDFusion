@@ -9,7 +9,7 @@ This repository includes the complete source code, pretrained models, and evalua
 ## Method Framework
 Below is the framework of our proposed ​**Dif-CDFusion**:
 
-![Dif-CDFusion Framework](./figs/framework.png)
+![Dif-CDFusion Framework](./figs/Framework.png)
 
 ## Abstract
 Infrared and visible image fusion aims to enhance scene representation by integrating complementary sensor data. However, existing methods fail to reconcile spectral fidelity with structural consistency. For one thing, grayscale fusion approaches preserve structural details by discarding color information, inherently sacrificing spectral fidelity. For another, color fusion techniques maintain spectral authenticity but compromise details and structural consistency due to the misaligned chromatic information. To bridge the gap, we present the Dif-CDFusion, which resolves the conflict between spectral fidelity and the preservation of structural details through diffusion-based feature extraction and common-differential alternating feature fusion. By individually constructing a denoising diffusion process in latent space to model multi-channel spectral distributions, our approach extracts diffusion features that preserve color integrity while capturing complete spectral information for texture retention. Subsequently, we design a common-differential alternate fusion module to alternately integrate differential and common mode components within diffusion features, enhancing both structual details and thermal target salience. Extensive experiments demonstrate that our Dif-CDFusion achieves state-of-the-art performance both quantitatively and qualitatively.
