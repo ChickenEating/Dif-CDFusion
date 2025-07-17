@@ -1,6 +1,6 @@
-# Bridging Spectral Fidelity and Structural Detail: A Diffusion-Based Common-Differential Fusion Network for Infrared-Visible Images
+# Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion
 
-This repository provides the official PyTorch implementation of the paper ​**Bridging Spectral Fidelity and Structural Detail: A Diffusion-Based Common-Differential Fusion Network for Infrared-Visible Images**, which has been submitted to IEEE Transactions on Geoscience and Remote Sensing **(TGRS)**. 
+This repository provides the official PyTorch implementation of the paper ​**Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion**, which has been submitted to IEEE Transactions on Geoscience and Remote Sensing **(TGRS)**. 
 
 In this work, we introduces ​Dif-CDFusion, a novel framework designed to address the critical challenge of reconciling spectral fidelity and structural consistency in infrared-visible image fusion. By leveraging diffusion-based feature extraction and a common-differential alternating fusion strategy, our approach achieves state-of-the-art performance in preserving both color integrity and structural details. 
 
@@ -12,7 +12,7 @@ Below is the framework of our proposed ​**Dif-CDFusion**:
 ![Dif-CDFusion Framework](./figs/Framework.png)
 
 ## Abstract
-Infrared and visible image fusion aims to enhance scene representation by integrating complementary sensor data. However, existing methods fail to reconcile spectral fidelity with structural consistency. For one thing, grayscale fusion approaches preserve structural details by discarding color information, inherently sacrificing spectral fidelity. For another, color fusion techniques maintain spectral authenticity but compromise details and structural consistency due to the misaligned chromatic information. To bridge the gap, we present the Dif-CDFusion, which resolves the conflict between spectral fidelity and the preservation of structural details through diffusion-based feature extraction and common-differential alternating feature fusion. By individually constructing a denoising diffusion process in latent space to model multi-channel spectral distributions, our approach extracts diffusion features that preserve color integrity while capturing complete spectral information for texture retention. Subsequently, we design a common-differential alternate fusion module to alternately integrate differential and common mode components within diffusion features, enhancing both structual details and thermal target salience. Extensive experiments demonstrate that our Dif-CDFusion achieves state-of-the-art performance both quantitatively and qualitatively.
+Infrared and visible image fusion aims to enhance scene representation by integrating complementary sensor data. However, existing methods fail to reconcile spectral fidelity with structural consistency. For one thing, grayscale fusion approaches preserve structural details by discarding color information, inherently sacrificing spectral fidelity. For another, color fusion techniques maintain spectral authenticity but compromise details and structural consistency due to the misaligned chromatic information. To bridge the gap, we present the Dif-CDFusion, which resolves the conflict between spectral fidelity and the preservation of structural details through diffusion-based feature extraction and common-differential alternating feature fusion. By individually constructing a denoising diffusion process in latent space to model multi-channel spectral distributions, our approach extracts diffusion features that preserve color integrity while capturing complete spectral information for texture retention. Subsequently, we design a common-differential alternate fusion module to alternately integrate differential and common mode components within diffusion features, enhancing both structual details and thermal target salience. Extensive experiments demonstrate that our Dif-CDFusion achieves state-of-the-art performance both quantitatively and qualitatively. The code and datasets are publicly available at https://github.com/ChickenEating/Dif-CDFusion.
 
 ## Results
 Here are some qualitative results from our experiments:
@@ -77,7 +77,7 @@ If you find this work useful, please cite our paper:
      author={Guanyu Liu, Ruiheng Zhang, Lixin Xu, Qi Zhang, and Daming Zhou},
      journal={IEEE Transactions on Geoscience and Remote Sensing},
      year={2025},
-     note={Submitted}
+     note={Under Review}
    }
    ```
 ## Contact
