@@ -73,8 +73,8 @@ To train or test the model, follow these steps:
 If you find this work useful, please cite our paper:
    ```bash
    @article{dif_cdfusion,
-     title={Bridging Spectral Fidelity and Structural Detail: A Diffusion-Based Common-Differential Fusion Network for Infrared-Visible Images},
-     author={Guanyu Liu, Ruiheng Zhang, Lixin Xu, Qi Zhang, and Daming Zhou},
+     title={Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion},
+     author={Liu, Guanyu and Zhang, Ruiheng and Xu, Lixin and Zhang, Qi and Zhou, Daming},
      journal={IEEE Transactions on Geoscience and Remote Sensing},
      year={2025},
      note={Under Review}
