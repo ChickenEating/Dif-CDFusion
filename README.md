@@ -1,6 +1,6 @@
 # Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion
 
-This repository provides the official PyTorch implementation of the paper ​**Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion**, which has been submitted to IEEE Transactions on Geoscience and Remote Sensing **(TGRS)**. 
+This repository provides the official PyTorch implementation of the paper ​**Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion**, which has been accepted in the IEEE Transactions on Geoscience and Remote Sensing **(TGRS)** (DOI: [https://doi.org/10.1109/TGRS.2025.3591809](https://doi.org/10.1109/TGRS.2025.3591809)). 
 
 In this work, we introduces ​Dif-CDFusion, a novel framework designed to address the critical challenge of reconciling spectral fidelity and structural consistency in infrared-visible image fusion. By leveraging diffusion-based feature extraction and a common-differential alternating fusion strategy, our approach achieves state-of-the-art performance in preserving both color integrity and structural details. 
 
@@ -77,7 +77,8 @@ If you find this work useful, please cite our paper:
      author={Liu, Guanyu and Zhang, Ruiheng and Xu, Lixin and Zhang, Qi and Zhou, Daming},
      journal={IEEE Transactions on Geoscience and Remote Sensing},
      year={2025},
-     note={Under Review}
+     doi={https://doi.org/10.1109/TGRS.2025.3591809},
+     note={Accepted}
    }
    ```
 ## Contact
