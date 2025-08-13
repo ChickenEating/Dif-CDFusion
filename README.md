@@ -76,11 +76,12 @@ If you find this work useful, please cite our paper:
      title={Dif-CDFusion: A Diffusion-Based Common-Differential Network for Infrared and Visible Image Fusion},
      author={Liu, Guanyu and Zhang, Ruiheng and Xu, Lixin and Zhang, Qi and Zhou, Daming},
      journal={IEEE Transactions on Geoscience and Remote Sensing},
-     page={1-1},
+     page={1-13},
      year={2025},
      publisher={IEEE},
-     doi={https://doi.org/10.1109/TGRS.2025.3591809},
-     note={Accepted}
+     volume={63},
+     number={},
+     doi={10.1109/TGRS.2025.3591809}
    }
    ```
 ## Contact
